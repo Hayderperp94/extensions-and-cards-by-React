@@ -1,5 +1,7 @@
 
 import './App.css'
+import ExtensionCard from './components/ExtensionCard/ExtensionCard'
+import Header from './components/Header/Header'
 
 function App() {
 
@@ -7,10 +9,9 @@ function App() {
   return (
     <>
       
-     
-  <h1>this is</h1>
+    <Header/>
        
-       
+    <ExtensionCard/>   
      
      
     </>
