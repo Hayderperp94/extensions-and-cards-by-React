@@ -1,7 +1,8 @@
 import './ExtensionCard.css'
 import React from 'react'
 import ToggleSwitch from '../ToggleSwitch/ToggleSwitch'
-const ExtensionCard = ({icon, name, description}) => {
+const ExtensionCard = (props) => {
+  const { icon, name, description } = props;
   return (
     <div className='card'>
     
