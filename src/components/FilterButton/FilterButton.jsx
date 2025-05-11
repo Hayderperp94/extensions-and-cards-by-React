@@ -3,9 +3,13 @@ import React from 'react'
 
 const FilterButton = () => {
   return (
-    <div>
-      
+    
+    <div className='FilterButton'>
+      <button className='button'>All</button>
+      <button className='button'>Active</button>
+      <button className='button'>Inactive</button>
     </div>
+    
   )
 }
 

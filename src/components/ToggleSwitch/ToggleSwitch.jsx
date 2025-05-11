@@ -3,7 +3,7 @@ import React from 'react'
 
 const ToggleSwitch = () => {
   return (
-    <div>
+    <div className='toggle active'>
       
     </div>
   )

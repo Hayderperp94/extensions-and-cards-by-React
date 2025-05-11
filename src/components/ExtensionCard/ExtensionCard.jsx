@@ -1,10 +1,27 @@
 import './ExtensionCard.css'
 import React from 'react'
-
-const ExtensionCard = () => {
+import ToggleSwitch from '../ToggleSwitch/ToggleSwitch'
+const ExtensionCard = ({icon, name, description}) => {
   return (
-    <div>
-    <h1></h1>
+    <div className='card'>
+    
+    <div className='flex'>
+      
+    <img src={icon} alt="" />
+    
+
+    
+    <div className='text'>
+      <h4>{name}</h4>
+      <p>{description}</p>
+    </div>
+
+    </div>
+
+    <div className='flex1'>
+      <button>Remove</button>
+      <ToggleSwitch/>
+    </div>
     </div>
   )
 }

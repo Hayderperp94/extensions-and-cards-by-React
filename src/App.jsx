@@ -1,17 +1,15 @@
 
 import './App.css'
-import ExtensionCard from './components/ExtensionCard/ExtensionCard'
-import Header from './components/Header/Header'
+import ExtensionsPage from './pages/ExtensionsPage/ExtensionsPage'
+
 
 function App() {
 
 
   return (
     <>
+      <ExtensionsPage/>
       
-    <Header/>
-       
-    <ExtensionCard/>   
      
      
     </>

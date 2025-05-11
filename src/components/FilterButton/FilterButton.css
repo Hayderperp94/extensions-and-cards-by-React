@@ -1,0 +1,12 @@
+.button{
+    background-color: white;
+    border-radius: 16px;
+    padding: 10px;
+    border: 1px solid grey; /* fixed the missing color */
+
+}
+
+.FilterButton{
+    display: flex;
+    gap: 10px;
+}
