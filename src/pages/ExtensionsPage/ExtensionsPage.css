@@ -4,9 +4,7 @@
     margin: 20px auto;
 }
 
-.h2{
-    font-weight: bold;
-}
+
 
 .ExtensionsList{
     display: flex;
@@ -14,6 +12,11 @@
     justify-content: space-between;
     margin-bottom: 10px;
 }
+
+h2{
+    font-weight: bold;
+}
+
 
 
 
@@ -38,7 +41,7 @@
     margin: 20px auto;
 }
 
-    .Extensionslist {
+    .ExtensionsList {
         flex-direction: column;
         gap: 16px;
         text-align: center;

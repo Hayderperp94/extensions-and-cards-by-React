@@ -11,7 +11,7 @@ const ExtensionsPage = () => {
 
       <Header/>
       <div className='ExtensionsList'>
-        <h2 className='h4'>
+        <h2 className='h2'>
           Extensions List
         </h2>
       
